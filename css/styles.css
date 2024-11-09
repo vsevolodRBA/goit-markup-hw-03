@@ -34,6 +34,7 @@ body {
     border-radius: 4px; 
     min-width: 169px;
     border: none;
+    display: block;
 }
 .f-button:hover,
 .f-button:focus {
@@ -52,6 +53,7 @@ body {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 80px;
 }
 .big-title {
     font-weight: 700;
@@ -61,6 +63,7 @@ body {
     color: #2E2F42;
     text-align: center;
     text-transform: capitalize;
+
 }
 .list-two {
     background-color: #FFFFFF;
@@ -157,6 +160,7 @@ body {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;   
+    display: flex;
 }
 h1,
 h2,
@@ -191,5 +195,5 @@ img {
     gap: 24px;
 }
 .inf-list {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4) ;
 }
