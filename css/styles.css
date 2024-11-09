@@ -115,6 +115,7 @@ body {
 }
 .studio-link {
     color: #2e2f42;
+    display: block;
     
 }
 .studio-link:hover,
@@ -129,7 +130,7 @@ body {
 }
 .mail-link {
     color: #434455;
-  
+    display: block;
 }
 .mail-link:hover,
 .mail-link:focus {
@@ -139,8 +140,11 @@ body {
     color: #404bbf;
 }
 .container {
-    max-width: 1158px 
-
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+   
+    
 }
 h1,
 h2,
