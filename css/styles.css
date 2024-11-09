@@ -120,6 +120,7 @@ body {
     color: #2e2f42;
     
     
+    
 }
 .studio-link:hover,
 .studio-link:focus {
@@ -148,6 +149,7 @@ body {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    display: flex;
    
     
 }
@@ -168,5 +170,6 @@ img {
 .wrapper {
     display: inline-flex;
     gap: 40px;
+ 
     
 }
