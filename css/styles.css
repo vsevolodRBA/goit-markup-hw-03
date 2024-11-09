@@ -68,6 +68,7 @@ body {
 }
 .last {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 .last-text {
     font-weight: 400;
@@ -116,6 +117,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-two-name {
     color: #f4f4fd;
@@ -153,10 +156,7 @@ body {
 .container {
     max-width: 1158px;
     padding: 0 15px;
-    margin: 0 auto;
-    display: flex;
-   
-    
+    margin: 0 auto;   
 }
 h1,
 h2,
@@ -182,4 +182,14 @@ img {
 .navigation {
     display: flex;
     align-items: center;
+}
+.second {
+    padding: 120px 0;
+}
+.wrapper-inf {
+    display: flex;
+    gap: 24px;
+}
+.inf-list {
+    width: calc((100% - 72px) / 4);
 }
