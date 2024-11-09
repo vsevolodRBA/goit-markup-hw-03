@@ -10,6 +10,7 @@ body {
 }
 .third {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .first-title {
     font-weight: 700;
@@ -63,10 +64,11 @@ body {
     color: #2E2F42;
     text-align: center;
     text-transform: capitalize;
-
+    margin-bottom: 72px;
 }
 .list-two {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
     
 }
 .last {
@@ -195,5 +197,5 @@ img {
     gap: 24px;
 }
 .inf-list {
-    flex-basis: calc((100% - 3 * 24px) / 4) ;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
