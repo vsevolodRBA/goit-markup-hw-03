@@ -5,6 +5,7 @@ body {
 }    
 .first {
     background-color: #2E2F42;
+    
 }
 .third {
     background-color: #F4F4FD;
@@ -28,9 +29,7 @@ body {
     cursor: pointer;
     width: 169px;
     height: 56px;
-    border-radius: 4px;
-    
-      
+    border-radius: 4px; 
 }
 .f-button:hover,
 .f-button:focus {
@@ -61,6 +60,7 @@ body {
 }
 .list-two {
     background-color: #FFFFFF;
+    
 }
 .last {
     background-color: #2E2F42;
@@ -78,6 +78,7 @@ body {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    display: inline-flex;
     
     
 }
@@ -87,6 +88,8 @@ body {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+    display: inline-flex;
+    gap: 40px;
 }
 .logo-one {
     font-family: "Raleway", sans-serif;
@@ -96,7 +99,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin: 24px 76px 24px 156px;
+    margin: 24px auto;
 }
 .logo-one-name {
     color: #2e2f42;
@@ -115,7 +118,7 @@ body {
 }
 .studio-link {
     color: #2e2f42;
-    display: block;
+    
     
 }
 .studio-link:hover,
@@ -127,10 +130,12 @@ body {
 }
 .addresss {
     font-style: normal;
+    
 }
 .mail-link {
     color: #434455;
-    display: block;
+   
+    
 }
 .mail-link:hover,
 .mail-link:focus {
@@ -159,4 +164,9 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+.wrapper {
+    display: inline-flex;
+    gap: 40px;
+    
 }
