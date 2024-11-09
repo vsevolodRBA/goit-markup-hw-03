@@ -99,7 +99,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin: 24px auto;
+    margin-right: 76px;
 }
 .logo-one-name {
     color: #2e2f42;
@@ -118,6 +118,7 @@ body {
 }
 .studio-link {
     color: #2e2f42;
+    padding: 24px 0;
     
     
     
@@ -168,8 +169,13 @@ img {
     height: auto;
 }
 .wrapper {
-    display: inline-flex;
-    gap: 40px;
- 
-    
+    display: flex;
+    gap: 40px;    
+}
+.megahead {
+    border-bottom: 1px solid #e7e9fc;
+}
+.navigation {
+    display: flex;
+    align-items: center;
 }
