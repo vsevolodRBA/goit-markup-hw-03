@@ -218,12 +218,6 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.containerfoot {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    
-}
 .wrapperad {
     display: flex;
     gap: 40px;
