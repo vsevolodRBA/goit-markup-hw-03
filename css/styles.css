@@ -149,9 +149,7 @@ body {
     
 }
 .mail-link {
-    color: #434455;
-   
-    
+    color: #434455;   
 }
 .mail-link:hover,
 .mail-link:focus {
@@ -163,8 +161,7 @@ body {
 .container {
     max-width: 1158px;
     padding: 0 15px;
-    margin: 0 auto;   
-    display: flex;
+    margin: 0 auto;      
 }
 h1,
 h2,
@@ -174,6 +171,7 @@ p {
 }
 ul, ol {
     margin: 0;
+    padding-left: 0;
 }
 img {
     display: block;
