@@ -223,3 +223,10 @@ img {
     margin: 0 auto;
     display: flex;
 }
+.wrapperad {
+    display: flex;
+    gap: 40px;
+    margin-left: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
