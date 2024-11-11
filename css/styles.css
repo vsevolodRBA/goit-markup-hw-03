@@ -20,6 +20,10 @@ body {
     color: #FFFFFF;
     text-align: center;
     max-width: 496px;
+    
+   
+    margin-bottom: 48px;
+    margin-left: 331px;
 }
 .f-button {
     font-weight: 500;
@@ -36,6 +40,7 @@ body {
     min-width: 169px;
     border: none;
     display: block;
+    margin-left: 494px;
 }
 .f-button:hover,
 .f-button:focus {
@@ -226,4 +231,16 @@ img {
 }
 .headcont {
     display: flex;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
