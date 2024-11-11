@@ -224,3 +224,6 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+.headcont {
+    display: flex;
+}
