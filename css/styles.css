@@ -7,6 +7,7 @@ body {
     background-color: #2E2F42;
     padding: 188px 0;
     
+    
 }
 .third {
     background-color: #F4F4FD;
@@ -19,11 +20,13 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
-    max-width: 496px;
+    max-width: 637px;
     
-   
     margin-bottom: 48px;
-    margin-left: 331px;
+
+    
+    padding: 0 15px;
+    margin: 0 auto;
 }
 .f-button {
     font-weight: 500;
@@ -40,7 +43,10 @@ body {
     min-width: 169px;
     border: none;
     display: block;
-    margin-left: 494px;
+    max-width: 1158px;
+        padding: 0 15px;
+        margin: 48px auto;
+    
 }
 .f-button:hover,
 .f-button:focus {
@@ -76,6 +82,7 @@ body {
 .list-two {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    display: block;
     
 }
 .last {
@@ -88,6 +95,7 @@ body {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
 .list-nav {
     font-weight: 500;
@@ -117,6 +125,7 @@ body {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
+    text-decoration: none;
 }
 .logo-one-name {
     color: #2e2f42;
@@ -131,6 +140,7 @@ body {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
+    text-decoration: none;
 }
 .logo-two-name {
     color: #f4f4fd;
@@ -138,7 +148,7 @@ body {
 .studio-link {
     color: #2e2f42;
     padding: 24px 0;
-    
+    text-decoration: none;
     
     
 }
@@ -151,10 +161,11 @@ body {
 }
 .addresss {
     font-style: normal;
-    
+    margin-left: 332px;
 }
 .mail-link {
-    color: #434455;   
+    color: #434455; 
+    text-decoration: none;
 }
 .mail-link:hover,
 .mail-link:focus {
@@ -203,6 +214,8 @@ img {
 }
 .inf-list {
     flex-basis: calc((100% - 3 * 24px) / 4);
+    display: block;
+    
 }
 .cont {
     padding: 32px 0;
@@ -225,7 +238,7 @@ img {
 .wrapperad {
     display: flex;
     gap: 40px;
-    margin-left: 332px;
+
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -243,4 +256,13 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+.secsec {
+    text-align: start;
+}
+.sectex {
+    text-align: start;
+}
+.im-list {
+    display: block;
 }
