@@ -44,8 +44,9 @@ body {
     border: none;
     display: block;
     max-width: 1158px;
-        padding: 0 15px;
-        margin: 48px auto;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-top: 48px;
     
 }
 .f-button:hover,
